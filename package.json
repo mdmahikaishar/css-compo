@@ -1,0 +1,24 @@
+{
+  "name": "css-compo",
+  "version": "0.0.0",
+  "description": "Component based css with vanila javascript.",
+  "author": "mdmahikaishar <mahikaishar@gmail.com>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx ",
+    "lint": "tsc --noEmit",
+    "build": "tsup ./src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [
+    "css-compo",
+    "component-css",
+    "ccss"
+  ],
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
